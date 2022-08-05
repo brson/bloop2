@@ -1,0 +1,18 @@
+[package]
+name = "b2_deps"
+description = "Common external dependencies, in one place"
+version = "0.1.0"
+edition = "2021"
+authors = ["Brian Anderson <andersrb@gmail.com>"]
+
+[lib]
+path = "deps.rs"
+
+[dependencies]
+anyhow = "1.0.58"
+log = "0.4.17"
+
+[dependencies.salsa]
+package = "salsa-2022"
+git = "https://github.com/salsa-rs/salsa.git"
+rev = "8a06de06105dff685e8ba6550844f47c51bdb33d"
