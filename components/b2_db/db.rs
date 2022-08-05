@@ -1,6 +1,7 @@
-pub use b2_deps::salsa;
+use b2_deps::salsa;
 
 #[salsa::db(
+    b2_sources::Jar,
     b2_token_tree::Jar,
 )]
 pub struct Database {

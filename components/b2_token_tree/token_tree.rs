@@ -1,8 +1,8 @@
 use b2_deps::salsa;
 
 #[salsa::jar(db = Db)]
-pub struct Jar {
-}
+pub struct Jar (
+);
 
 pub trait Db: salsa::DbWithJar<Jar> {}
 

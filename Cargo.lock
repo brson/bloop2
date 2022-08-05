@@ -36,6 +36,7 @@ name = "b2_db"
 version = "0.1.0"
 dependencies = [
  "b2_deps",
+ "b2_sources",
  "b2_token_tree",
 ]
 
@@ -46,6 +47,13 @@ dependencies = [
  "anyhow",
  "log",
  "salsa-2022",
+]
+
+[[package]]
+name = "b2_sources"
+version = "0.1.0"
+dependencies = [
+ "b2_deps",
 ]
 
 [[package]]
