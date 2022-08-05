@@ -1,0 +1,12 @@
+[package]
+name = "b2_token_tree"
+description = "Tokens"
+version = "0.1.0"
+edition = "2021"
+authors = ["Brian Anderson <andersrb@gmail.com>"]
+
+[lib]
+path = "token_tree.rs"
+
+[dependencies]
+b2_deps = { path = "../b2_deps" }

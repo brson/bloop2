@@ -1,0 +1,13 @@
+[package]
+name = "b2_db"
+description = "Salsa DB"
+version = "0.1.0"
+edition = "2021"
+authors = ["Brian Anderson <andersrb@gmail.com>"]
+
+[lib]
+path = "db.rs"
+
+[dependencies]
+b2_deps = { path = "../b2_deps" }
+b2_token_tree = { path = "../b2_token_tree" }
