@@ -1,6 +1,7 @@
 use b2_deps::salsa;
 
 #[salsa::db(
+    b2_lexer::Jar,
     b2_sources::Jar,
     b2_token_tree::Jar,
 )]

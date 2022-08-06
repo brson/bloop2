@@ -1,15 +1,14 @@
 [package]
-name = "b2_db"
-description = "Salsa DB"
+name = "b2_lexer"
+description = "Lexer"
 version = "0.1.0"
 edition = "2021"
 authors = ["Brian Anderson <andersrb@gmail.com>"]
 
 [lib]
-path = "db.rs"
+path = "lexer.rs"
 
 [dependencies]
 b2_deps = { path = "../b2_deps" }
-b2_lexer = { path = "../b2_lexer" }
 b2_sources = { path = "../b2_sources" }
 b2_token_tree = { path = "../b2_token_tree" }
